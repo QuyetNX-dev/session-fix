@@ -1,0 +1,32 @@
+/* Book css-------------------------------- */
+.list-book li {
+    border-bottom: solid 1px;
+}
+.list-users li {
+    border-bottom: solid 1px gray;
+}
+
+a {
+  text-decoration: none !important;
+  padding-right: 10px;
+  color: rgb(26, 25, 25);
+}
+.table tr th,
+td {
+  border-bottom: solid 1px gray;
+  padding: 4px 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin 0;
+}
+
+.conten-book{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
